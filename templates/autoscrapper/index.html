@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Automatic Web Data Extraction</title>
+    <link href="{% static 'bootstrap.min.css' %} " rel="stylesheet" >
+    <link href="{% static 'cover.css' %} " rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Main Project</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Automatic Data Extraction From Web Pages</h1>
+            <p class="lead">Enter an URL</p>
+            <p class="lead">
+               <form method="GET" action="/extract/" role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Url" name="url" >
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-default">Extract</button>
+                </form> 
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Project By Arjun Linas Krishnapriya and Sumesh</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
