@@ -5,7 +5,7 @@ installation steps
 -----------------
 
 # open the terminal 
-# open the travalour_project folder in terminal
+# open the AutoScrapper_project folder in terminal
 
 # install python-pip
 $ sudo apt-get install python-pip
@@ -21,14 +21,14 @@ source /usr/local/bin/virtualenvwrapper.sh
 #save and quit your editor
 
 # create a virtualenv, I usually give it the same name as my app
-$ mkvirtualenv travalour
+$ mkvirtualenv autoscrapper
 
 # The virtualenv will be activated automatically.
 # You can deactivate it like this
 $ deactivate
 
 # to activate a virtualenv, or change which one is active, do this
-$ workon travalour
+$ workon autoscrapper
 
 # install the requirements
 $ pip install requirements.txt
